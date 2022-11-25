@@ -73,43 +73,52 @@ function tienenMismaLongitud(str1="flash", str2="flash") {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1==str2);
+  if (str1.length == str2.length)
+ return true;
+ else return false;
+}
+
+function menosQueNoventa(num=50) {
+  // Devuelve "true" si el argumento de la función "num" es menor que noventa
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  if (num < 90)
   return true;
   else return false;
 }
 
-function menosQueNoventa(num) {
-  // Devuelve "true" si el argumento de la función "num" es menor que noventa
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  
-}
-
-function mayorQueCincuenta(num) {
+function mayorQueCincuenta(num=55) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num > 50)
+  return true;
+  else return false;
 }
 
-function obtenerResto(x, y) {
+function obtenerResto(x=15, y=5) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  obtenerResto = x % y;
+  return obtenerResto;
 }
 
-function esPar(num) {
+function esPar(num = 8) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if ((num  % 2) == 0)
+  return true;
+  else return false;
 }
 
-function esImpar(num) {
+function esImpar(num = 9) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if ((num % 2) == 1)
+  return true;
+  else return false;
 }
 
 function elevarAlCuadrado(num) {
