@@ -31,52 +31,51 @@ function devolverString(str) {
   return str;
 }
 
-function suma(x, y) {
+function suma(x=5, y=5) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  x= 5;
-  y= 4;
-  suma= x + y;
+    suma= x + y;
   return suma;
 }
 
-function resta(x, y) {
+function resta(x=3, y=6) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  x= 6;
-  y= 6;
-  resta= y - x;
-  return resta;
+    resta= x - y;
+return resta;
 }
 
-function multiplica(x, y) {
+function multiplica(x=5, y=-10) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  x=5;
-  y=5;
-  multiplica= x*y;
+  multiplica= x * y;
   return multiplica;
 }
 
-function divide(x, y) {
+function divide(x=25, y=5) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  divide= x / y;
+  return divide;
 }
 
-function sonIguales(x, y) {
+function sonIguales(x=prueba, y=prueba) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (x==y)
+  return true;
+  else return false;
 }
 
-function tienenMismaLongitud(str1, str2) {
+function tienenMismaLongitud(str1="flash", str2="flash") {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (str1==str2);
+  return true;
+  else return false;
 }
 
 function menosQueNoventa(num) {
